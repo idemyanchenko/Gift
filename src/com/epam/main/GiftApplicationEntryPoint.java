@@ -17,8 +17,8 @@ public class GiftApplicationEntryPoint {
 		
 		GiftBox gift = new GiftBox();
 		
-//		FileGiftBoxReader giftReader = new FileGiftBoxReader();
-		RandomGiftBoxReader giftReader = new RandomGiftBoxReader();
+		FileGiftBoxReader giftReader = new FileGiftBoxReader();
+//		RandomGiftBoxReader giftReader = new RandomGiftBoxReader();
 //		DatabaseGiftBoxReader giftReader = new DatabaseGiftBoxReader();
 		
 		try{

@@ -14,7 +14,7 @@ public class FileGiftBoxReader implements GiftBoxReader {
 	@Override
 	public GiftBox readGiftBox() throws Exception {
 
-		CSVReader fr = new CSVReader(new FileReader("D:/Learning_JAVA/workspace/GiftsApplication/input/GiftBox.txt"));
+		CSVReader fr = new CSVReader(new FileReader("C:/Users/Irina_Demyanchenko/git/Gift/input/GiftBox.txt"));
 
 		GiftBox gb = new GiftBox();
 
