@@ -10,15 +10,15 @@ public class Cookie implements Sweets{
 	private String name;
 	private String producedBy;
 	private double price; 
-	private int weight;
-	private int calories;	
+	private long weight;
+	private long calories;	
 	private boolean isPacked;
 
 	public Cookie(){
 		
 	}
 	
-	public Cookie(String sweetType, String name, String producedBy, double price, int weight, int calories, boolean isPacked){
+	public Cookie(String sweetType, String name, String producedBy, double price, long weight, long calories, boolean isPacked){
 		this.sweetType=sweetType;
 		this.name=name;
 		this.producedBy=producedBy;
@@ -94,7 +94,7 @@ public class Cookie implements Sweets{
 	}
 	
 	@Override
-	public int getWeight (){
+	public long getWeight (){
 		return weight;
 	}
 	
@@ -102,7 +102,7 @@ public class Cookie implements Sweets{
 		this.calories=calories;
 	}
 	
-	public int getCalories(){
+	public long getCalories(){
 		return calories;
 	}
 

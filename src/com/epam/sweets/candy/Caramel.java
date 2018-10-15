@@ -11,7 +11,7 @@ public class Caramel extends Candy {
 		super();
 	}
 
-	public Caramel(String sweetType, String name, String producedBy, double price, int weight, int calories, String caramelType, String flavour) {
+	public Caramel(String sweetType, String name, String producedBy, double price, long weight, long calories, String caramelType, String flavour) {
 		super(sweetType, name, producedBy, price, weight, calories);
 		this.caramelType = caramelType;
 		this.flavour = flavour;

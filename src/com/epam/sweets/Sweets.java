@@ -10,9 +10,9 @@ public interface Sweets extends Comparable<Sweets> {
 	
 	public double getPrice();
 	
-	public int getWeight();	
+	public long getWeight();	
 	
-	public int getCalories();
+	public long getCalories();
 	
 	
 

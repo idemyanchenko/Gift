@@ -8,8 +8,8 @@ public abstract class Candy implements Sweets{
 	private String name;
 	private String producedBy;
 	private double price;
-	private int weight;
-	private int calories;	
+	private long weight;
+	private long calories;	
 	
 	public String getSweetType() {
 		return sweetType;
@@ -22,7 +22,7 @@ public abstract class Candy implements Sweets{
 	public Candy (){
 		
 	}
-	public Candy (String sweetType, String name, String producedBy, double price, int weight, int calories) {
+	public Candy (String sweetType, String name, String producedBy, double price, long weight, long calories) {
 		this.name=sweetType;
 		this.name=name;
 		this.producedBy=producedBy;
@@ -75,7 +75,7 @@ public abstract class Candy implements Sweets{
 		this.weight=weight;
 	}
 	
-	public int getWeight (){
+	public long getWeight (){
 		return weight;
 	}
 	
@@ -83,7 +83,7 @@ public abstract class Candy implements Sweets{
 		this.calories=calories;
 	}
 	
-	public int getCalories(){
+	public long getCalories(){
 		return calories;
 	}
 

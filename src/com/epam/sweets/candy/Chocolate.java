@@ -8,7 +8,7 @@ import java.io.StringWriter;
 public class Chocolate extends Candy{
 	private String chocolateType; //white, milk, dark
 	
-	public Chocolate (String sweetType, String name, String producedBy, double price, int weight, int calories, String chocolateType){
+	public Chocolate (String sweetType, String name, String producedBy, double price, long weight, long calories, String chocolateType){
 		super(sweetType, name, producedBy, price, weight, calories);
 		this.chocolateType=chocolateType;
 	}
