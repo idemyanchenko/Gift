@@ -7,6 +7,7 @@ import com.epam.sweets.Sweets;
 import com.epam.main.GiftApplicationEntryPoint;
 import com.epam.datasources.DatabaseGiftBoxReader;
 import com.epam.datasources.FileGiftBoxReader;
+import com.epam.datasources.RandomGiftBoxReader;
 import com.epam.exceptions.EmptyGiftException;
 import com.epam.exceptions.NoSweetFoundException;
 
@@ -16,8 +17,8 @@ public class GiftApplicationEntryPoint {
 		
 		GiftBox gift = new GiftBox();
 		
-		FileGiftBoxReader giftReader = new FileGiftBoxReader();
-//		RandomGiftBoxReader giftReader = new RandomGiftBoxReader();
+//		FileGiftBoxReader giftReader = new FileGiftBoxReader();
+		RandomGiftBoxReader giftReader = new RandomGiftBoxReader();
 //		DatabaseGiftBoxReader giftReader = new DatabaseGiftBoxReader();
 		
 		try{

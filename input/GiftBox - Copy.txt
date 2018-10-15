@@ -1,9 +1,0 @@
-Chocolate,5,Mars,Nestle,2.5,25,500,Milk
-Caramel,5,Korovka,Kommunarka,2.0,15,100,Soft,Milk
-Gelly,5,Mad Bee,Roshen,1.0,10,50,Pear
-Cookie,1,Orio,Nestle,2.0,100,100,true
-
-
-
-
-
