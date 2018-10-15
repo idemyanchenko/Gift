@@ -1,0 +1,42 @@
+{
+	"giftbox":
+	[{
+			"quantity": 5,
+			"sweetType": "Caramel",
+			"name": "Korovka",
+			"producedBy": "Kommunarka",
+			"price": 2.0,
+			"weight": 15,
+			"calories": 100,
+			"caramelType": "Soft",
+			"flavour": "Milk"
+		}, {
+			"quantity": 5,
+			"sweetType": "Chocolate",
+			"name": "Mars",
+			"producedBy": "Nestle",
+			"price": 2.5,
+			"weight": 25,
+			"calories": 500,
+			"chocolateType": "Milk"
+		}, {
+			"quantity": 5,
+			"sweetType": "Gelly",
+			"name": "Mad Bee",
+			"producedBy": "Roshen",
+			"price": 1.0,
+			"weight": 10,
+			"calories": 50,
+			"flavour": "Pear"
+		}, {
+			"quantity": 1,
+			"sweetType": "Cookie",
+			"name": "Orio",
+			"producedBy": "Nestle",
+			"price": 2.0,
+			"weight": 100,
+			"calories": 100,
+			"ispacked": true
+		}
+	]
+}

@@ -1,0 +1,23 @@
+CREATE TABLE giftboxes (giftid VARCHAR(10), giftname VARCHAR(20), sweetname VARCHAR(20),
+    -> species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
+
+CREATE TABLE caramel (sweetid VARCHAR(10), sweettype VARCHAR(20), name VARCHAR(20), producedby VARCHAR(20), price FLOAT, weight INT, calories INT, carameltype VARCHAR(20), flavour VARCHAR(20));
+CREATE TABLE chocolate (sweetid VARCHAR(10), sweettype VARCHAR(20), name VARCHAR(20), producedby VARCHAR(20), price FLOAT, weight INT, calories INT, chocolatetype VARCHAR(20));
+CREATE TABLE gelly (sweetid VARCHAR(10), sweettype VARCHAR(20), name VARCHAR(20), producedby VARCHAR(20), price FLOAT, weight INT, calories INT, flavour VARCHAR(20));
+CREATE TABLE cookie (sweetid VARCHAR(10), sweettype VARCHAR(20), name VARCHAR(20), producedby VARCHAR(20), price FLOAT, weight INT, calories INT, ispacked BOOLEAN);
+
+INSERT INTO caramel (sweetid,sweettype,name,producedby,price,weight,calories,carameltype,flavour) VALUES ('1000','caramel','Korovka','Kommunarka',2.0,15,100,'Soft','Milk');
+INSERT INTO chocolate (sweetid,sweettype,name,producedby,price,weight,calories,chocolatetype) VALUES ('1001','chocolate','Mars','Nestle',2.5,25,500,'Milk');
+INSERT INTO gelly(sweetid,sweettype,name,producedby,price,weight,calories,flavour) VALUES ('1002','gelly','Mad Bee','Roshen',1.0,10,50,'Pear');
+INSERT INTO cookie(sweetid,sweettype,name,producedby,price,weight,calories,ispacked) VALUES ('1003','gelly','Orio','Nestle',2.0,100,100,true);
+
+
+
+CREATE TABLE giftbox (giftboxid VARCHAR(10), giftboxname VARCHAR(20), sweettype VARCHAR(10), sweetid VARCHAR(10), quantity INT);
+
+INSERT INTO giftbox (giftboxid,giftboxname,sweettype,sweetid,quantity) VALUES ('1','New Year 2018','caramel','1000',5);
+INSERT INTO giftbox (giftboxid,giftboxname,sweettype,sweetid,quantity) VALUES ('1','New Year 2018','chocolate','1001',5);
+INSERT INTO giftbox (giftboxid,giftboxname,sweettype,sweetid,quantity) VALUES ('1','New Year 2018','gelly','1002',5);
+INSERT INTO giftbox (giftboxid,giftboxname,sweettype,sweetid,quantity) VALUES ('1','New Year 2018','cookie','1003',1);
+
+SELECT * from giftboxes;
